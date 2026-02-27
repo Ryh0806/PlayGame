@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo de Número Secreto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Bem-vindo ao Jogo do Número Secreto</h1>
+        <h2> Dê start e veja a sua sorte!</h2>
+
+        <div class="resultado">
+            <input type="number" id="adicione" placeholder="Adicione o seu número!">
+             <p id="batata">O resultado é:</p>
+             <img id="case" src="https://media.tenor.com/95vdiHbtudwAAAAM/clash-royale-waiting.gif" alt="">
+        </div>  
+
+        <div class="botão">
+            <button onclick="start()">Start</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <audio id="acerto" src="som2.mp3"></audio>
+        <audio id="erro" src="som1.mp3"></audio>
+        <audio id="carregando" src="som3.mp3"></audio>
+        <script src="script.js"></script>
+    </body>
+ </html>
+
